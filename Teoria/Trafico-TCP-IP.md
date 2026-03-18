@@ -16,3 +16,57 @@ Luego de aca transita libremente por el internet, para llegar a el PC que solici
 
 ## Reciclamiento
 Estos paquetes terminan entregando su información a la aplicación web y luego es utilizado para reciclarse y luego llenarse de la información solicitada para volver a realizar su viaje devuelta hasta el administrador de internet donde es entregada la información solicitada
+
+# Modelo OSI(incompleto):
+Es el modelo de la enseñanza de la comunicación, es un modelo cerrado que rechaza modificaciones y esta hecho por capas:
+
+7 Aplicación
+6 Presentación
+5 Sesion
+4 Transporte
+3 Red
+2 Enlace de datos
+1 Fisico
+
+## Aplicación:
+Inicio OS
+Ingreso a Google
+Protocolo DNS
+gooogle.com = num random
+Busca trabajo de Google(motor de búsqueda)
+
+
+Datos: conjunto de información generada
+
+## Presentación:
+Representa los datos en información
+
+## Sesión:
+Se conecta con otra sesión para solicitar información de esta misma
+
+Dirección MAC(Media Access Control): Identificador único de cada dispositivo	
+
+
+## Transporte:
+
+Segmenta paquetes incapaces de pasar por el ancho de banda, convirtiéndolos en datagramas, luego añade etiquetas TCP y los corta 
+
+## Red:
+
+Lee el paquete con dirección de origen y destino al cual es enviado, termina de armar los paquetes, estos tienen dirección de origen, segmento y dirección de destino y cada uno es llamado paquete de datos, con cada uno sus direcciones de origen y destino y un segmento
+
+## Enlace de Datos:
+
+Trama= etiquetas que ordenan el paquete de dato
+
+Traduce todo a bits para que la parte física lo entienda
+
+## Fisico:
+
+Conversión de bits al medio y su envio
+
+
+Luego esto es enviado al transito TCP/IP y al llegar a la PC hace el camino al reves
+
+
+
