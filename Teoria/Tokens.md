@@ -26,3 +26,19 @@ Es el protocolo criptográfico estándar moderno que asegura las comunicaciones 
 Certificados
 ### TLS:
 Son los encriptados y como mandarlos
+
+
+## Codigos:
+
+### HTTP 200:
+Indica que la solicitud de un cliente a un servidor se ha procesado correctamente.
+
+### HTTP 204:
+Cuando una operación se realiza correctamente pero no devuelve ninguna respuesta
+### HTTP 404:
+El servidor no encuentra el recurso o página solicitada
+### HTTP 504:
+El servidor web no recibió a tiempo una respuesta de otro servidor superior necesaria para completar una solicitud
+
+### Tarea:
+investigar PAP, NETBROS, ZIP, SCP
