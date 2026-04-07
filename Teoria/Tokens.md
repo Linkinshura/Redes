@@ -47,12 +47,21 @@ investigar PAP, NetBios, ZIP, SCP
 ### PAP:
 Es un método básico de PPP (Point-to-Point Protocol) para autenticar usuarios mediante el intercambio de credenciales (usuario/contraseña) en texto plano al establecer una conexión
 
+token Datos
+
 ### NetBios:
 Es un protocolo de capa de sesión (OSI 5) que permite a las aplicaciones en diferentes computadoras comunicarse dentro de una LAN, facilitando la compartición de recursos como archivos e impresoras.
+
+token Datos
 
 ### ZIP:
 Es el estándar técnico utilizado en telefonía IP (VoIP) para establecer, gestionar, modificar y finalizar sesiones multimedia —como llamadas de voz, vídeo y mensajería instantánea— a través de redes IP, funcionando de manera similar a HTTP para la web. 
 
+token Actividad
+
 
 ### SCP:
-Permite transferir archivos de forma segura entre hosts locales y remotos, o entre dos remotos, utilizando el protocolo SSH para cifrar la transferencia y autenticar a los usuarios
+Permite transferir archivos de forma segura entre hosts locales y remotos, o entre dos remotos, utilizando el protocolo SSH para cifrar la transferencia y autenticar a los usuarios, recupera la comunicacion.
+
+
+token Sincronizacion
