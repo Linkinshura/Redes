@@ -60,6 +60,8 @@ Puertos:
 
 123(NTP): Es el protocolo que se maneja dentro de la red en tiempo real, controla todo lo que sucede dentro de la red
 
+137/138/139(Netbios): 137: Inicia el sistema 138: Chequea los datagramas que se envian 139: Se encarga de la sesion
+
 
 
 
