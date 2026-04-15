@@ -1,6 +1,6 @@
-Packet Tracer - Investigue los modelos TCP/IP y OSI en acción
+# Packet Tracer - Investigue los modelos TCP/IP y OSI en acción
 
-Objetivos
+## Objetivos
 Parte 1: Examine el tráfico web HTTP
 
 Parte 2: Muestre elementos de la suite de protocolos TCP/IP
@@ -42,7 +42,7 @@ Debido a que el tiempo en el modo de simulación es controlado por eventos, debe
 
 d.     Haga clic en Capture/Forward cuatro veces. Debe haber cuatro eventos en el Event List.
 
-Pregunta:
+## Pregunta:
 Mire la página del navegador web del Cliente Web. ¿Cambió algo?
 
 e.     Haga clic sobre la primer caja de color en Event List > bajo la columna Type . Puede ser necesario expandir el Panel de simulación o usar la barra de desplazamiento directamente debajo deEvent List.
@@ -78,25 +78,25 @@ h.     Haga clic sobre la primer caja de color en Event List > bajo la columna T
 
 i.      Avance al siguiente cuadro HTTP Type dentro de Event List y haga clic en la caja de color. Esta ventana contiene tanto en In Layers como Out Layers. Observe la dirección de la flecha directamente debajo de la columnaIn Layers ; apunta hacia arriba, indicando la dirección en la que viajan los datos. Desplácese por estas capas y tome nota de los elementos vistos anteriormente. En la parte superior de la columna, la flecha apunta a la derecha. Esto indica que el servidor ahora está enviando la información al cliente.
 
-Pregunta:
+## Pregunta:
 Comparando la información que se muestra en la columnaIn Layers con la de la columna Out Layers, ¿cuáles son las principales diferencias?
 
 j.      Haga clic en la pestaña Inbound and Outbound PDU Details. Revise los detalles PDU.
 
 k.     Haga clic sobre la última caja de color bajo la columna Info.
 
-Pregunta:
+## Pregunta:
 ¿Cuántas pestañas se muestran con este evento? Explique.
 
-Parte 2: Muestre elementos del conjunto de Protocolos TCP/IP
+### Parte 2: Muestre elementos del conjunto de Protocolos TCP/IP
 En la Parte 2 de esta actividad, utilizará el modo Simulación de Packet Tracer para ver y examinar algunos de los otros protocolos que comprenden el conjunto TCP/IP.
 
-Step 1: View Additional Events
+### Step 1: View Additional Events
 a.     Cierre cualquier ventana de información de PDU abierta.
 
 b.     En elEvent List Filters > seccion Visible Events, haga clic en Show All/None.
 
-Pregunta:
+## Pregunta:
 ¿Qué tipos de eventos adicionales se muestran?
 
 Estas entradas adicionales desempeñan varios roles dentro del conjunto TCP/IP . El Protocolo de resolución de direcciones (ARP) solicita direcciones MAC para hosts de destino. DNS es responsable de convertir un nombre (por ejemplo, www.osi.local) a una dirección IP. Los eventos TCP adicionales son responsables de conectarse, acordar los parámetros de comunicación y desconectar las sesiones de comunicación entre los dispositivos. These protocols have been mentioned previously and will be further discussed as the course progresses. Currently there are over 35 possible protocols (event types) available for capture within Packet Tracer.
@@ -105,26 +105,26 @@ c.     Haga clic en el primer evento de DNS en la columna Type. Explore las pest
 
 d.     Haga clic en la pestaña Outbound PDU Details .
 
-Pregunta:
+## Pregunta:
 ¿Qué información se indica en el campo NAME :en la sección de DNS QUERY?
 
 e.     Haga clic en la ultima caja de color de Info de DNS en el event list.
 
-Preguntas:
+## Preguntas:
 ¿En qué dispositivo se capturó la PDU?
 
 ¿Cuál es el valor que aparece junto a ADDRESS: en la sección DNS ANSWER de Inbound PDU Details?
 
 f.      Busque el primer evento HTTP en la lista y haga clic en la caja de color del TCP event inmediatamente después de este evento. Resalte Layer 4 en la pestaña OSI Model.
 
-Pregunta:
+## Pregunta:
 En la lista numerada directamente debajo de In Layers y Out Layers, ¿cuál es la información que se muestra en los elementos 4 y 5?
 
 TCP gestiona la conexión y desconexión del canal de comunicaciones junto con otras responsabilidades. Este evento en particular muestra que el canal de comunicación ha sido ESTABLECIDO.
 
 g.     Haga clic en el último evento TCP. Resalte Layer 4 en la pestaña OSI Model. Examine los pasos enumerados directamente debajo de In Layers y Out Layers.
 
-Pregunta:
+## Pregunta:
 ¿Cuál es el propósito de este evento, basado en la información proporcionada en el último elemento de la lista (debe ser el elemento 4)?
 
 Preguntas de desafío
