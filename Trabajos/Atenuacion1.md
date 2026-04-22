@@ -28,7 +28,7 @@ Nc=2
 
 AT= Nc*Atc+Ne*Ate+LC*AtC+LC*0.01
 AT= 2*0.5+4*0.1+10*0.25+10*0.01
-AT = 4.9 Mhz
+AT = 4.0 Mhz
 
 No funciona correctamente la atenuacion
 
@@ -36,7 +36,7 @@ No funciona correctamente la atenuacion
 
 AT=Nc*Atc+Ne*Ate+LC*AtC+LC*0.01
 AT=2*0.75+4*0.25+10*0.5+10*0.01
-AT= 8.5Mhz
+AT= 7.6Mhz
 
 Funciona correctamente la atenuacion
 
@@ -49,17 +49,17 @@ Nc=2
 
 AT=Nc*Atc+Ne*Ate+LC*AtC+LC*0.01
 AT=2*0.5+6*0.1+40*0.25+40*0.01
-AT= 4.2Mhz
+AT= 12.0Mhz
 
-No funciona correctamente la atenuacion
+Funciona correctamente la atenuacion
 
 ### 1310:
 
 AT=Nc*Atc+Ne*Ate+LC*AtC+LC*0.01
 AT=2*0.75+6*0.25+40*0.5+40*0.1
-AT=8.1Mhz
+AT=27.0Mhz
 
-Funciona correctamente la atenuacion
+No funciona correctamente la atenuacion
 
 ## 3)
 LC=3
@@ -78,7 +78,7 @@ No funciona correctamente la atenuacion
 
 AT=Nc*Atc+Ne*Ate+LC*AtC+LC*0.01
 AT=2*0.75+2*0.25+3*0.5+3*0.1
-AT=3.53Mhz
+AT=3.8Mhz
 
 No funciona correctamente la atenuacion
 
@@ -92,7 +92,7 @@ Nc=2
 
 AT= Nc*Atc+Ne*Ate+LC*AtC+LC*0.01
 AT= 2*0.5+4*0.1+10*0.25+10*0.01
-AT = 4.9 Mhz
+AT = 4.0 Mhz
 
 No funciona correctamente la atenuacion
 
@@ -100,7 +100,7 @@ No funciona correctamente la atenuacion
 
 AT=Nc*Atc+Ne*Ate+LC*AtC+LC*0.01
 AT=2*0.75+4*0.25+10*0.5+10*0.01
-AT= 8.5Mhz
+AT= 7.6Mhz
 
 Funciona correctamente la atenuacion
 
@@ -122,7 +122,7 @@ No funciona correctamente la atenuacion
 
 AT=Nc*Atc+Ne*Ate+LC*AtC+LC*0.01
 AT=2*0.75+6*0.25+14*0.5+14*0.1
-AT=10.14Mhz
+AT=11.4Mhz
 
 Funciona correctamente la atenuacion
 
@@ -135,7 +135,7 @@ Nc=2
 
 AT=Nc*Atc+Ne*Ate+LC*AtC+LC*0.01
 AT=2*0.5+8*0.1+9*0.25+3*9.01
-AT= 4.14Mhz
+AT= 31.08Mhz
 
 No funciona correctamente la atenuacion
 
@@ -143,7 +143,7 @@ No funciona correctamente la atenuacion
 
 AT=Nc*Atc+Ne*Ate+LC*AtC+LC*0.01
 AT=2*0.75+8*0.25+9*0.5+9*0.1
-AT=8.09Mhz
+AT=8.9Mhz
 
 Funciona correctamente la atenuacion
 
@@ -167,5 +167,3 @@ AT=4*0.75+18*0.25+33*0.5+33*0.01
 AT= 24.33Mhz
 
 Funciona correctamente la atenuacion
-
-
