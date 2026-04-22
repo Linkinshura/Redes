@@ -47,7 +47,7 @@ Funciona correctamente la atenuacion
 ### 1310:
 
 AT=Nc*Atc+Ne*Ate+LC*AtC+LC*0.01  
-AT=2x0.75 (1.5) + 6x0.25 (1.5) + 40x0.5 (20.0) + 40x0.1 (4.0)  
+AT=2x0.75 (1.5) + 6x0.25 (1.5) + 40x0.5 (20.0) + 40x0.01 (4.0)  
 AT=27.0Mhz  
 
 No funciona correctamente la atenuacion
@@ -68,7 +68,7 @@ No funciona correctamente la atenuacion
 ### 1310:
 
 AT=Nc*Atc+Ne*Ate+LC*AtC+LC*0.01  
-AT=2x0.75 (1.5) + 2x0.25 (0.5) + 3x0.5 (1.5) + 3x0.1 (0.3)  
+AT=2x0.75 (1.5) + 2x0.25 (0.5) + 3x0.5 (1.5) + 3x0.01 (0.3)  
 AT=3.8Mhz  
 
 No funciona correctamente la atenuacion
@@ -112,7 +112,7 @@ No funciona correctamente la atenuacion
 #### 1310:
 
 AT=Nc*Atc+Ne*Ate+LC*AtC+LC*0.01  
-AT=2x0.75 (1.5) + 6x0.25 (1.5) + 14x0.5 (7.0) + 14x0.1 (1.4)  
+AT=2x0.75 (1.5) + 6x0.25 (1.5) + 14x0.5 (7.0) + 14x0.01 (1.4)  
 AT=11.4Mhz  
 
 Funciona correctamente la atenuacion
@@ -133,7 +133,7 @@ No funciona correctamente la atenuacion
 #### 1310:
 
 AT=Nc*Atc+Ne*Ate+LC*AtC+LC*0.01  
-AT=2x0.75 (1.5) + 8x0.25 (2.0) + 9x0.5 (4.5) + 9x0.1 (0.9)  
+AT=2x0.75 (1.5) + 8x0.25 (2.0) + 9x0.5 (4.5) + 9x0.01 (0.9)  
 AT=8.9Mhz  
 
 Funciona correctamente la atenuacion
