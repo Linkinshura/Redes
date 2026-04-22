@@ -113,7 +113,7 @@ No funciona correctamente la atenuacion
 
 AT=Nc*Atc+Ne*Ate+LC*AtC+LC*0.01  
 AT=2x0.75 (1.5) + 6x0.25 (1.5) + 14x0.5 (7.0) + 14x0.01 (1.4)  
-AT=11.4Mhz  
+AT=10.14Mhz  
 
 Funciona correctamente la atenuacion
 
