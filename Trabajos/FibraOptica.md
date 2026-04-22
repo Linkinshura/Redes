@@ -95,4 +95,4 @@ Su medida estándar es dB/km, ósea el Decibelio por Kilometro
 
 5)
 1550MHz = 105.8 dB
-1310 MHz = 205.5 dB
+1310 MHz = 207.5 dB
