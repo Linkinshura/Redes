@@ -94,5 +94,26 @@ Su medida estándar es dB/km, ósea el Decibelio por Kilometro
 
 
 5)
-1550MHz = 105.8 dB
-1310 MHz = 207.5 dB
+AT=1550Mhz
+Atc=0.5
+Ate=0.1
+AtC=025
+LC=400
+Ne=8
+Nc=2
+
+1550Mhz = Nc*Atc+Ne*Ate+LC*AtC+LC*0.01
+1550Mhz = 2*0.5+8*0.1+400*0.25+400*0.01
+
+#### 1550MHz = 105.8 dB
+
+AT=1310MhZ
+Atc=0.75
+Ate=0.25
+AtC=0.5
+LC=400
+Ne=8
+Nc=2
+1310= 2*0.75+8*0.25+400*0.5+400*0.01
+
+#### 1310 MHz = 207.5 dB 
