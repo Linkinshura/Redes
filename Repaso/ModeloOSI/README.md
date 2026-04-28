@@ -1,25 +1,93 @@
-# Modelo OSI
+# 📘 Modelo OSI
 
-El modelo OSI (Open Systems Interconnection) es un modelo teórico que divide 
-la comunicación en redes en 7 capas, cada una con funciones específicas.
+## 🧠 Definición
+El **Modelo OSI (Open Systems Interconnection)** es un modelo conceptual que divide la comunicación en redes en **7 capas**, permitiendo estandarizar cómo los dispositivos se comunican entre sí. 0  
 
-## Capas (de arriba hacia abajo)
-1. Aplicación: interacción con el usuario
-2. Presentación: formato, compresión y cifrado
-3. Sesión: control de la comunicación
-4. Transporte: envío confiable de datos
-5. Red: direccionamiento y rutas (IP)
-6. Enlace de datos: comunicación local (MAC)
-7. Física: transmisión de bits
+También sirve para **identificar problemas en redes** separando cada función en niveles. 1  
 
-## Funcionamiento
-- Emisor: los datos bajan por las capas (encapsulamiento)
-- Receptor: los datos suben (desencapsulamiento)
+---
 
-## Ventajas
-- Organización en capas
-- Facilita el diagnóstico de errores
-- Permite interoperabilidad entre sistemas
+## 🧱 Capas del Modelo OSI
 
-## Característica clave
-Es un modelo conceptual que ayuda a entender cómo viajan los datos en una red.
+### 1. Capa Física (Physical)
+- Transmisión de **bits (0 y 1)**.
+- Medio físico: cables, señales eléctricas, ópticas o inalámbricas.
+- Ejemplo: cable UTP, fibra óptica.
+
+---
+
+### 2. Capa de Enlace de Datos (Data Link)
+- Comunicación entre dispositivos conectados directamente.
+- Maneja **tramas (frames)**.
+- Usa direcciones **MAC**.
+- Detecta errores.
+
+---
+
+### 3. Capa de Red (Network)
+- Maneja **paquetes (packets)**.
+- Se encarga del **direccionamiento lógico (IP)**.
+- Determina rutas (routing).
+
+---
+
+### 4. Capa de Transporte (Transport)
+- Maneja **segmentos**.
+- Comunicación extremo a extremo.
+- Control de errores y flujo.
+- Protocolos:
+  - TCP → confiable
+  - UDP → rápido
+
+---
+
+### 5. Capa de Sesión (Session)
+- Establece, mantiene y finaliza sesiones.
+- Controla la comunicación entre dispositivos.
+
+---
+
+### 6. Capa de Presentación (Presentation)
+- Traduce los datos.
+- Funciones:
+  - Codificación
+  - Compresión
+  - Cifrado
+
+---
+
+### 7. Capa de Aplicación (Application)
+- Interacción directa con el usuario.
+- Servicios de red.
+- Protocolos: HTTP, FTP, SMTP, DNS.
+
+---
+
+## 🔄 Funcionamiento
+
+### Encapsulación
+- Los datos bajan desde la capa 7 a la 1.
+- Cada capa agrega información (headers). 2  
+
+### Desencapsulación
+- Los datos suben desde la capa 1 a la 7.
+- Cada capa elimina su información correspondiente. 3  
+
+---
+
+## 📊 Unidades de Datos (PDU)
+
+| Capa | Unidad |
+|------|--------|
+| Aplicación / Presentación / Sesión | Datos |
+| Transporte | Segmentos |
+| Red | Paquetes |
+| Enlace de Datos | Tramas |
+| Física | Bits |
+
+---
+
+## 🎯 Importancia
+- Estandariza la comunicación en redes.
+- Facilita la resolución de problemas.
+- Permite interoperabilidad entre sistemas distintos.
