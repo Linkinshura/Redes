@@ -1,9 +1,9 @@
 # 📘 Modelo OSI
 
 ## 🧠 Definición
-El **Modelo OSI (Open Systems Interconnection)** es un modelo conceptual que divide la comunicación en redes en **7 capas**, permitiendo estandarizar cómo los dispositivos se comunican entre sí. 0  
+El **Modelo OSI (Open Systems Interconnection)** es un modelo conceptual que divide la comunicación en redes en **7 capas**, permitiendo estandarizar cómo los dispositivos se comunican entre sí. 
 
-También sirve para **identificar problemas en redes** separando cada función en niveles. 1  
+También sirve para **identificar problemas en redes** separando cada función en niveles. 
 
 ---
 
@@ -67,11 +67,10 @@ También sirve para **identificar problemas en redes** separando cada función e
 
 ### Encapsulación
 - Los datos bajan desde la capa 7 a la 1.
-- Cada capa agrega información (headers). 2  
-
+- Cada capa agrega información (headers).
 ### Desencapsulación
 - Los datos suben desde la capa 1 a la 7.
-- Cada capa elimina su información correspondiente. 3  
+- Cada capa elimina su información correspondiente.
 
 ---
 
