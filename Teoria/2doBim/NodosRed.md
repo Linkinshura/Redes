@@ -78,10 +78,10 @@ Es un dispositivo de hardware fundamental que interconecta múltiples equipos (c
 
 ## Bridge/Puente:
 
-
+Es un dispositivo de interconexión de redes informáticas que opera en la capa 2 (enlace de datos) del modelo OSI. Su función principal es segmentar o conectar redes de área local (LAN), filtrando el tráfico de datos basado en direcciones físicas (MAC) para reducir la congestión, mejorar la eficiencia y extender la cobertura de la red
 
 > [!NOTE]
-> 
+> La union de dos o mas redes diferentes a traves de un nodo. En caso de que este nodo no sea un bridge se debe hacer una configuracion
 
 > [!IMPORTANT]
 > 
@@ -91,3 +91,74 @@ Es un dispositivo de hardware fundamental que interconecta múltiples equipos (c
 >           <li> </li>
 >       </ul>
 > </details>
+
+
+
+## Servidor:
+
+Es un ordenador o dispositivo de alto rendimiento diseñado para almacenar, gestionar y distribuir datos, aplicaciones y recursos compartidos a otros equipos (clientes) conectados en red
+
+> [!NOTE]
+> Es el que se encarga de proveer servicios 
+
+> [!IMPORTANT]
+> 
+> <details>
+>   <summary> Detalles </summary>
+>       <ul>
+>           <li> </li>
+>       </ul>
+> </details>
+
+
+## Firewall:
+
+Es un sistema de seguridad de red que actúa como barrera entre una red de confianza (como una red interna empresarial) y redes no fiables (como Internet), permitiendo o bloqueando tráfico según reglas predefinidas
+
+> [!NOTE]
+> Puede ser fisico o digital, se encarga de habilitar o bloquear funciones. En caso de ser fisico se coloca despues del nodo a proteger 
+
+> [!IMPORTANT]
+> 
+> <details>
+>   <summary> Detalles </summary>
+>       <ul>
+>           <li> </li>
+>       </ul>
+> </details>
+
+
+## Servidor Proxy:
+
+Es un equipo o software intermediario que gestiona las conexiones entre un cliente (usuario) e internet, actuando como pasarela para mejorar la seguridad, el rendimiento y la privacidad
+
+> [!NOTE]
+> Se encarga de bloquear acciones o lugares especificos
+
+> [!IMPORTANT]
+> 
+> <details>
+>   <summary> Detalles </summary>
+>       <ul>
+>           <li> </li>
+>       </ul>
+> </details>
+
+
+## VPN:
+
+Es una tecnología de red que crea una conexión cifrada y segura sobre una red pública como Internet. Permite a usuarios y dispositivos transmitir datos privados de forma remota, emulando la seguridad y funcionalidad de una red local (LAN) privada, lo que resulta fundamental para el teletrabajo y la protección de datos en entornos corporativos
+
+> [!NOTE]
+> Este tambien puede ser fisico o un programa, se encarga de enrutar y enmascarar las direcciones IP
+
+> [!IMPORTANT]
+> 
+> <details>
+>   <summary> Detalles </summary>
+>       <ul>
+>           <li> </li>
+>       </ul>
+> </details>
+
+## 
