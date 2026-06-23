@@ -115,8 +115,7 @@ E. 192.168.15.31
 
 F. Ninguna de las que se menciona
 
-## 11) Usted se encuentra trabajando en una empresa a la que le ha sido asignada una dirección clase C y se necesita
-crear 10 subredes. Se le requiere que disponga de tantas direcciones de nodo en cada subred, como resulte posible. ¿Cuál de las siguientes es la máscara de subred que deberá utilizar?
+## 11) Usted se encuentra trabajando en una empresa a la que le ha sido asignada una dirección clase C y se necesita crear 10 subredes. se le requiere que disponga de tantas direcciones de nodo en cada subred, como resulte posible. ¿Cuál de las siguientes es la máscara de subred que deberá utilizar?
 
 A. 255.255.255.192
 
