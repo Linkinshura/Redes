@@ -169,4 +169,9 @@ C-172.16.4.113
 
 ## 5) Cual es el broadcasting, raíz y mascara de  subred para la direccion 10.27.33.14/19
 
+10.27.33.14/19
+|Máscara| Raíz | Rango Hosts | Broadcasting |
+|:-:|:-:|:-:|:-:|
+|255.255.224.0|10.27.32.0|10.27.32.1 - 10.27.63.254| 10.27.63.255 |
+
 
