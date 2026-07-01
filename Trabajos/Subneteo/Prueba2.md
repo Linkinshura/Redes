@@ -2,7 +2,7 @@
 
 ## 1) Completar el cuadro con lo que pide(realizar todos los cálculos)
 
-|| Direccion | N° Bits Subred | N° Bits Host | Subredes | Host | Mascara Subred | Broadcasting 2° Subred |
+| Direccion | N° Bits Subred | N° Bits Host | Subredes | Host | Mascara Subred | Broadcasting 2° Subred |
 | :-------: | :------------: | :----------: | :------: | :--: | :------------: | :--------------------: |
 | 192.168.0.14/29 | 5 | 3 | 32 | 6 | 255.255.255.248 | 192.168.0.15 |
 | 172.16.0.36/20 | 4 | 12 | 16 | 4094 | 255.255.240.0 | 172.16.31.255 |
