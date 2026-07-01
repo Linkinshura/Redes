@@ -157,11 +157,11 @@ Mascara: 255.255.255.0
 
 ## 3) cuantas subredes se puede sacar si tenemos una máscara 255.255.255.192 para:
 
-A-Clase C
+A-Clase C = 64
 
-B-Clase B
+B-Clase B = 
 
-C-Clase A
+C-Clase A =
 
 ## 4) Cual de los siguientes no pertenece a la misma subred si tenemos una mascara 255.255.255.240
 
